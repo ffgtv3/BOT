@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.donate-box {
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.donate-box:hover {
+    transform: scale(1.1);
+}
+
+#hydra { background-color: #1abc9c; }
+#knight { background-color: #2ecc71; }
+#baron { background-color: #e67e22; }
+#duke { background-color: #e74c3c; }
+#emperor { background-color: #9b59b6; }
